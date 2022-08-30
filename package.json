@@ -7,11 +7,16 @@
     "@cucumber/cucumber": "8.0.0"
   },
   "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@types/cucumber": "^7.0.0",
+    "@types/node": "^18.7.14",
     "nodemon": "2.0.15",
-    "serve": "13.0.2"
+    "serve": "13.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
   },
   "scripts": {
-    "dev": "node ./server.js && nodemon --quiet --ext 'js,feature' ./node_modules/.bin/cucumber-js"
+    "dev": "cucumber-js"
   },
   "keywords": [],
   "description": "This sandbox is a little playground for trying out Cucumber."
