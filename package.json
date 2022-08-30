@@ -1,0 +1,18 @@
+{
+  "name": "cucumber-js-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@cucumber/cucumber": "8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15",
+    "serve": "13.0.2"
+  },
+  "scripts": {
+    "dev": "node ./server.js && nodemon --quiet --ext 'js,feature' ./node_modules/.bin/cucumber-js"
+  },
+  "keywords": [],
+  "description": "This sandbox is a little playground for trying out Cucumber."
+}
